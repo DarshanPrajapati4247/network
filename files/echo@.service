@@ -1,0 +1,6 @@
+[Unit]
+Description=Echo Service
+
+[Service]
+ExecStart=/bin/echo "Hello from echo service"
+StandardInput=socket

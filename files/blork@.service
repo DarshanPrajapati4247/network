@@ -1,0 +1,6 @@
+[Unit]
+Description=Blork Service
+
+[Service]
+ExecStart=/path/to/blork-script.sh
+StandardInput=socket

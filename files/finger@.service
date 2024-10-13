@@ -1,0 +1,6 @@
+[Unit]
+Description=Finger Service
+
+[Service]
+ExecStart=/usr/bin/finger
+StandardInput=socket
