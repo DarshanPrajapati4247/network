@@ -1,35 +1,52 @@
-# Network Services Configuration Files 🚀
+# Network Programming Repository
 
-Welcome to the **Network Services** configuration repository! Here you'll find the necessary `.socket` and `.service` files for various system services like `blork`, `daytime`, `echo`, `finger`, and `qotd`. These services are configured to run on a Linux system using **systemd**.
+Welcome to the Network Programming Repository! This repository contains a collection of resources, examples, and exercises to help you understand and master network programming concepts.
 
-## 📄 Files Included
+## Table of Contents
 
-Here are the configuration files included in this repository:
+- [Introduction](#introduction)
+- [Getting Started](#getting-started)
+- [Directory Structure](#directory-structure)
+- [Contributing](#contributing)
+- [License](#license)
 
-- `blork.socket` ⚙️
-- `blork@.service` ⚙️
-- `daytime.socket` ⏰
-- `daytime@.service` ⏰
-- `echo.socket` 📡
-- `echo@.service` 📡
-- `finger.socket` 👆
-- `finger@.service` 👆
-- `qotd.socket` 📜
-- `qotd@.service` 📜
+## Introduction
 
-## 🚀 Usage Instructions
+Network programming is a crucial skill for developing applications that communicate over a network. This repository provides a comprehensive set of materials, including multiple-choice questions (MCQs), code examples, and detailed explanations to help you learn and practice network programming.
 
-You can download the individual files using `curl` with the following commands:
+## Getting Started
+
+To get started with this repository, clone it to your local machine using the following command:
 
 ```bash
-curl -O https://raw.githubusercontent.com/DarshanPrajapati4247/network/main/files/blork.socket
-curl -O https://raw.githubusercontent.com/DarshanPrajapati4247/network/main/files/blork@.service
-curl -O https://raw.githubusercontent.com/DarshanPrajapati4247/network/main/files/daytime.socket
-curl -O https://raw.githubusercontent.com/DarshanPrajapati4247/network/main/files/daytime@.service
-curl -O https://raw.githubusercontent.com/DarshanPrajapati4247/network/main/files/echo.socket
-curl -O https://raw.githubusercontent.com/DarshanPrajapati4247/network/main/files/echo@.service
-curl -O https://raw.githubusercontent.com/DarshanPrajapati4247/network/main/files/finger.socket
-curl -O https://raw.githubusercontent.com/DarshanPrajapati4247/network/main/files/finger@.service
-curl -O https://raw.githubusercontent.com/DarshanPrajapati4247/network/main/files/qotd.socket
-curl -O https://raw.githubusercontent.com/DarshanPrajapati4247/network/main/files/qotd@.service
+git clone https://github.com/DarshanPrajapati4247/network.git
 ```
+
+Navigate to the repository directory:
+
+```bash
+cd network
+```
+
+## Directory Structure
+
+The repository is organized as follows:
+
+- `ques/`: Contains multiple-choice questions (MCQs) related to network programming.
+- `examples/`: Includes code examples demonstrating various network programming concepts.
+- `docs/`: Documentation and additional resources.
+
+## Contributing
+
+We welcome contributions from the community! If you have any improvements, bug fixes, or new examples to add, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Commit your changes and push them to your fork.
+4. Create a pull request with a detailed description of your changes.
+
+## License
+
+This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+
+Happy coding!
