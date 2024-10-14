@@ -1,0 +1,6 @@
+[Unit]
+Description=Quote of the Day service
+
+[Service]
+ExecStart=/usr/games/fortune | /usr/games/cowsay
+StandardInput=socket

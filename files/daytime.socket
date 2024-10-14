@@ -1,0 +1,8 @@
+[Unit]
+Description=Daytime service socket
+
+[Socket]
+ListenStream=2323
+
+[Install]
+WantedBy=sockets.target

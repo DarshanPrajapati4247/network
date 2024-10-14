@@ -1,0 +1,8 @@
+[Unit]
+Description=Quote of the Day service socket
+
+[Socket]
+ListenStream=4242
+
+[Install]
+WantedBy=sockets.target

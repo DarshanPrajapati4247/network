@@ -1,0 +1,6 @@
+[Unit]
+Description=Daytime service
+
+[Service]
+ExecStart=/bin/date
+StandardInput=socket
